@@ -1,0 +1,76 @@
+body{
+  background:#E3E4FA;
+}
+.main{
+  display:flex;
+  margin:2%;
+  padding:2%;
+  width:90%;
+}
+.main section{
+  width:95%;
+  border:2px solid #483C32 ;
+  paddin:1%;
+  margin:1%;
+}
+section{
+  background:#FDD7E4;
+  text-align: center;
+  margin:1%;
+  padding:1%;
+}
+input,select{
+  width:80%;
+  margin:1%;
+  padding:1%;
+  display:block;
+  border:1px solid #9172EC;
+
+}
+button{
+  background:blue;
+  width:10%;
+  margin:1%;
+  padding:1%;
+  font-size:20px;
+  font-weight: bold;
+
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+body{
+  background:green;
+}
+.left{
+  display:flex;
+  flex-wrap: wrap;
+  width:50%
+  height:50%;
+}
+.right{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+}
+@media only screen and (min-width:621px) and (max-width:1024px){
+  body{
+    background:orange;
+  }
+  .left{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 3%;
+    padding: 3%;
+    border-radius: 10%;
+    border-style: groove;
+    width: 40%;
+    height: 20%;
+
+  }
+  .right{
+    width:60%;
+    border-style: groove;
+    border-radius:5%;
+    height: 70%;
+  }
